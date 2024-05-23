@@ -15,5 +15,34 @@
     <p>
         <h5>Rafael Casinha Nova Caldas</h5>
     </p>
+    <br>
+    <h1>Preencha o formulário abaixo</h1>
+    <br>
+    <form>
+        <fieldset>
+            <input type="text" name="Nome", required><label><b>Nome</b></label>
+            <input type="text" name="Sobrenome", required><label><b>Sobrenome</b></label>
+            <input type="text" name="Email", required><label><b>Email</b></label>
+            <input type="number" name="WhatsApp", required><label><b>WhatsApp</b></label>
+            
+            <label for="projeto"><b>Qual é o tipo do seu projeto?</b></label>
+            <select name="projeto"></select>
+                <option value="Reforma">Reforma</option>
+                <option value="Planta">Na planta</option>
+
+            <select name="imóvel", required><label><b>Qual é o tipo do seu imóvel?</b></label>
+                <option value="Casa">Casa</option>
+                <option value="Apartamento">Apartamento</option>
+                <option value="Loja">Loja</option>
+            </select>
+             
+            <label for="investimento"><b>Quanto você deseja investir no projeto?</b></label>
+            <select name="investimento">
+                <option value="Menos de 10 mil">Até 10 mil reais</option>
+                <option value="10/50 mil">Entre 10 e 50 mil reais</option>
+                <option value="Mais de 50 mil">Acima de 50 mil</option>
+            </select>
+        </fieldset>
+    </form>
 </body>
 </html>
