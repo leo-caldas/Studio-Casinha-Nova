@@ -21,24 +21,23 @@
     <form>
         <fieldset>
             <input type="text" name="Nome", required, placeholder="Nome">
-            <br>
-            <br>
             <input type="text" name="Sobrenome", required, placeholder="Sobrenome">
             <br>
             <br>
             <input type="text" name="Email", required, placeholder="Email">
-            <br>
-            <br>
             <input type="number" name="WhatsApp", required, placeholder="WhatsApp", maxlength="11">
             
             <br>
             <br>
 
-            <select name="projeto", required, aria-placeholder="Selecione o tipo do seu projeto">
+            <label for="projeto"><b>Qual é o tipo do seu projeto?</b></label>
+            <br>
+            <select name="projeto", required>
                 <option value="Reforma">Reforma</option>
                 <option value="Planta">Na planta</option>
             </select>
 
+            <br>
             <br>
 
             <label for="imóvel"><b>Qual é o tipo do seu imóvel?</b></label>
@@ -49,6 +48,7 @@
                 <option value="Loja">Loja</option>
             </select>
              
+            <br>
             <br>
 
             <label for="investimento"><b>Quanto você deseja investir no projeto?</b></label>
