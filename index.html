@@ -20,32 +20,43 @@
     <br>
     <form>
         <fieldset>
-            <input type="text" name="Nome", required><label><b>Nome</b></label>
+            <label for="Nome"><b>Nome</b></label>
+            <input type="text" name="Nome", required>
             <br>
-            <input type="text" name="Sobrenome", required><label><b>Sobrenome</b></label>
             <br>
-            <input type="text" name="Email", required><label><b>Email</b></label>
+            <label for="Sobrenome"><b>Sobrenome</b></label>
+            <input type="text" name="Sobrenome", required>
             <br>
-            <input type="number" name="WhatsApp", required><label><b>WhatsApp</b></label>
+            <br>
+            <label for="Email"><b>Email</b></label>
+            <input type="text" name="Email", required>
+            <br>
+            <br>
+            <input type="number" name="WhatsApp", required, placeholder="WhatsApp">
             
             <br>
 
             <label for="projeto"><b>Qual é o tipo do seu projeto?</b></label>
-            <select name="projeto"></select>
+            <br>
+            <select name="projeto", required>
                 <option value="Reforma">Reforma</option>
                 <option value="Planta">Na planta</option>
-            
+            </select>
+
             <br>
 
-            <select name="imóvel", required><label><b>Qual é o tipo do seu imóvel?</b></label>
+            <label for="imóvel"><b>Qual é o tipo do seu imóvel?</b></label>
+            <br>
+            <select name="imóvel", required>
                 <option value="Casa">Casa</option>
                 <option value="Apartamento">Apartamento</option>
                 <option value="Loja">Loja</option>
             </select>
              
             <br>
-            
+
             <label for="investimento"><b>Quanto você deseja investir no projeto?</b></label>
+            <br>
             <select name="investimento">
                 <option value="Menos de 10 mil">Até 10 mil reais</option>
                 <option value="10/50 mil">Entre 10 e 50 mil reais</option>
