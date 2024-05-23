@@ -20,25 +20,21 @@
     <br>
     <form>
         <fieldset>
-            <label for="Nome"><b>Nome</b></label>
-            <input type="text" name="Nome", required>
+            <input type="text" name="Nome", required, placeholder="Nome">
             <br>
             <br>
-            <label for="Sobrenome"><b>Sobrenome</b></label>
-            <input type="text" name="Sobrenome", required>
+            <input type="text" name="Sobrenome", required, placeholder="Sobrenome">
             <br>
             <br>
-            <label for="Email"><b>Email</b></label>
-            <input type="text" name="Email", required>
+            <input type="text" name="Email", required, placeholder="Email">
             <br>
             <br>
-            <input type="number" name="WhatsApp", required, placeholder="WhatsApp">
+            <input type="number" name="WhatsApp", required, placeholder="WhatsApp", maxlength="11">
             
             <br>
-
-            <label for="projeto"><b>Qual é o tipo do seu projeto?</b></label>
             <br>
-            <select name="projeto", required>
+
+            <select name="projeto", required, aria-placeholder="Selecione o tipo do seu projeto">
                 <option value="Reforma">Reforma</option>
                 <option value="Planta">Na planta</option>
             </select>
