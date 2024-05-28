@@ -18,20 +18,21 @@
     <hr>
     <br>
     <h1>Preencha o formulário abaixo</h1>
-    <form width="50%">
+    <form style="width: 25%;">
         <fieldset>
-            <input type="text" name="Nome", required, placeholder="Nome">
-            <input type="text" name="Sobrenome", required, placeholder="Sobrenome">
+            <br>
+            <input type="text" name="Nome", required, placeholder="Nome", style="width: 40%;">
+            <input type="text" name="Sobrenome", required, placeholder="Sobrenome", style="width: 40%;">
             <br>
             <br>
-            <input type="text" name="Email", required, placeholder="Email">
-            <input type="tel" name="WhatsApp", required, placeholder="WhatsApp", maxlength="11 required">
+            <input type="text" name="Email", required, placeholder="Email", style="width: 40%;">
+            <input type="tel" name="WhatsApp", required, placeholder="WhatsApp", maxlength="11 required", style="width: 40%;">
             
             <br>
             <br>
 
-            <select name="projeto", required>
-                <option disabled value="Tipo de projeto">Qual é o tipo do seu projeto?</option>
+            <select name="projeto", required, style="width: 42%;">
+                <option disabled selected value="Tipo de projeto">Selecione o seu projeto</option>
                 <option value="Reforma">Reforma</option>
                 <option value="Planta">Na planta</option>
             </select>
@@ -39,8 +40,8 @@
             <br>
             <br>
 
-            <select name="imóvel", required>
-                <option disabled value="Tipo de imóvel">Qual é o tipo do seu imóvel?</option>
+            <select name="imóvel", required, style="width: 42%;">
+                <option disabled selected value="Tipo de imóvel">Selecione o seu imóvel</option>
                 <option value="Casa">Casa</option>
                 <option value="Apartamento">Apartamento</option>
                 <option value="Loja">Loja</option>
@@ -49,12 +50,14 @@
             <br>
             <br>
 
-            <select name="investimento">
-                <option disabled value="Investimento">Quanto você deseja investir no projeto?</option>
+            <select name="investimento", required, style="width: 42%;">
+                <option disabled selected value="Qtd Investimento">Qual a verba disponível?</option>
                 <option value="Menos de 10 mil">Até 10 mil reais</option>
                 <option value="10/50 mil">Entre 10 e 50 mil reais</option>
                 <option value="Mais de 50 mil">Acima de 50 mil</option>
             </select>
+            <br>
+            <br>
         </fieldset>
     </form>
 </body>
