@@ -18,7 +18,7 @@
     <hr>
     <br>
     <h1>Preencha o formulário abaixo</h1>
-    <form>
+    <form width="50%">
         <fieldset>
             <input type="text" name="Nome", required, placeholder="Nome">
             <input type="text" name="Sobrenome", required, placeholder="Sobrenome">
@@ -30,9 +30,8 @@
             <br>
             <br>
 
-            <label for="projeto"><b>Qual é o tipo do seu projeto?</b></label>
-            <br>
             <select name="projeto", required>
+                <option disabled value="Tipo de projeto">Qual é o tipo do seu projeto?</option>
                 <option value="Reforma">Reforma</option>
                 <option value="Planta">Na planta</option>
             </select>
@@ -40,9 +39,8 @@
             <br>
             <br>
 
-            <label for="imóvel"><b>Qual é o tipo do seu imóvel?</b></label>
-            <br>
             <select name="imóvel", required>
+                <option disabled value="Tipo de imóvel">Qual é o tipo do seu imóvel?</option>
                 <option value="Casa">Casa</option>
                 <option value="Apartamento">Apartamento</option>
                 <option value="Loja">Loja</option>
@@ -51,9 +49,8 @@
             <br>
             <br>
 
-            <label for="investimento"><b>Quanto você deseja investir no projeto?</b></label>
-            <br>
             <select name="investimento">
+                <option disabled value="Investimento">Quanto você deseja investir no projeto?</option>
                 <option value="Menos de 10 mil">Até 10 mil reais</option>
                 <option value="10/50 mil">Entre 10 e 50 mil reais</option>
                 <option value="Mais de 50 mil">Acima de 50 mil</option>
