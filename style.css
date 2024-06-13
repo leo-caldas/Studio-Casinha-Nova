@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: "symtext";
+    src: url('Symtext.ttf') format('truetype');
+}
+
+.hdrHome {
+    background-color: rgb(255, 0, 0);
+    opacity: 50%;
+    width: 100%;
+    height: 35%;
+    font-family: symtext;
+}
+
+.txtHdrHome {
+    color: black;
+    opacity: 100%;
+}
+
+.bannerHome {
+    width: 100%;
+    height: 50%;
+}
+
+.divProjetos {
+    font-family: symtext;
+    color: black;
+}
+
+.divSobre {
+    background-color: rgb(28, 78, 226);
+}
+.labelDivSobre {
+    font-family: symtext;
+    color: white;
+}
+
+.textDivSobre {
+    color: white;
+}
+
