@@ -10,10 +10,12 @@
 
 .hdrHome {
     background-color: rgb(255, 0, 0);
+    display: inline-block;
     opacity: 50%;
     width: 100%;
-    height: 35%;
+    height: 75px;
     font-family: symtext;
+    position: absolute;
 }
 
 .txtHdrHome {
@@ -22,8 +24,9 @@
 }
 
 .bannerHome {
+    display: inline-block;
     width: 100%;
-    height: 50%;
+    height: 925px;
 }
 
 .divProjetos {
@@ -43,3 +46,9 @@
     color: white;
 }
 
+.positionLogoHdr {
+    display: block;
+    position: fixed;
+    top: 25px;
+    left: 75px;
+}

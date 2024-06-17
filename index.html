@@ -3,20 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>CNAD | CASINHA NOVA</title>
 </head>
 <body>
     <header class="hdrHome">
         <nav class="txtHdrHome">
-            <span>LOGO</span>
+            <span class="positionLogoHdr">LOGO</span>
             <span>PROJETOS</span>
             <span>SOBRE</span>
             <span>CONTATO</span>
         </nav>
     </header>
     <div class="bannerHome">
-        <img src="Foto Banner 1.jpeg" alt="Nome do Projeto">
+        <img class="bannerHome" src="Foto Banner 1.jpeg" alt="Nome do Projeto">
     </div>
     <main>
     <section>
@@ -28,14 +27,16 @@
         </nav>
     </section>
     </main>
+    <hr>
     <section class="divSobre">
+        <!-- Ajustar a posição do texto ao lado do Sobre -->
         <header class="labelDivSobre"><b>SOBRE</b></header>
         <p class="textDivSobre">Aqui vou inserir um breve storytelling sobre o Studio</p>
     </section>
     <hr>
-    <br>
     <footer>
         <nav>
+            <!-- Alterar esses itens para lista e adicionar URL -->
             <p><strong>INSTAGRAM</strong>
             <strong>HOME</strong></p>
             <p><strong>TIKTOK</strong>
@@ -46,49 +47,5 @@
             <strong>CONTATO</strong></p>
         </nav>
     </footer>
-    <h1>Preencha o formulário abaixo</h1>
-    <form style="width: 25%;">
-        <fieldset>
-            <br>
-            <input type="text" name="Nome", required, placeholder="Nome", style="width: 40%;">
-            <input type="text" name="Sobrenome", required, placeholder="Sobrenome", style="width: 40%;">
-            <br>
-            <br>
-            <input type="text" name="Email", required, placeholder="Email", style="width: 40%;">
-            <input type="tel" name="WhatsApp", required, placeholder="WhatsApp", maxlength="11 required", style="width: 40%;">
-            
-            <br>
-            <br>
-
-            <select name="projeto", required, style="width: 42%;">
-                <option disabled selected value="Tipo de projeto">Selecione o seu projeto</option>
-                <option value="Reforma">Reforma</option>
-                <option value="Planta">Na planta</option>
-            </select>
-
-            <br>
-            <br>
-
-            <select name="imóvel", required, style="width: 42%;">
-                <option disabled selected value="Tipo de imóvel">Selecione o seu imóvel</option>
-                <option value="Casa">Casa</option>
-                <option value="Apartamento">Apartamento</option>
-                <option value="Loja">Loja</option>
-            </select>
-             
-            <br>
-            <br>
-
-            <select name="investimento", required, style="width: 42%;">
-                <option disabled selected value="Qtd Investimento">Qual a verba disponível?</option>
-                <option value="Menos de 10 mil">Até 10 mil reais</option>
-                <option value="10/50 mil">Entre 10 e 50 mil reais</option>
-                <option value="Mais de 50 mil">Acima de 50 mil</option>
-            </select>
-            <br>
-            <br>
-            <button>Enviar</button>
-        </fieldset>
-    </form>
 </body>
 </html>
