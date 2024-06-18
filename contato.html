@@ -1,11 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contato | CNAD</title>
+    <title>CNAD | CONTATO</title>
 </head>
 <body>
-    
+    <header style="background-color: blue;">
+        <h1>CONTATO</h1>
+    </header>
+    <h1>Preencha o formulário abaixo</h1>
+    <main>
+        <form style="width: 25%;">
+            <fieldset>
+                <br>
+                <input type="text" name="Nome", required, placeholder="Nome", style="width: 40%;">
+                <input type="text" name="Sobrenome", required, placeholder="Sobrenome", style="width: 40%;">
+                <br>
+                <br>
+                <input type="text" name="Email", required, placeholder="Email", style="width: 40%;">
+                <input type="tel" name="WhatsApp", required, placeholder="WhatsApp", maxlength="11 required", style="width: 40%;">
+                
+                <br>
+                <br>
+                <select name="projeto", required, style="width: 42%;">
+                    <option disabled selected value="Tipo de projeto">Selecione o seu projeto</option>
+                    <option value="Reforma">Reforma</option>
+                    <option value="Planta">Na planta</option>
+                </select>
+                <br>
+                <br>
+                <select name="imóvel", required, style="width: 42%;">
+                    <option disabled selected value="Tipo de imóvel">Selecione o seu imóvel</option>
+                    <option value="Casa">Casa</option>
+                    <option value="Apartamento">Apartamento</option>
+                    <option value="Loja">Loja</option>
+                </select>
+                
+                <br>
+                <br>
+                <select name="investimento", required, style="width: 42%;">
+                    <option disabled selected value="Qtd Investimento">Qual a verba disponível?</option>
+                    <option value="Menos de 10 mil">Até 10 mil reais</option>
+                    <option value="10/50 mil">Entre 10 e 50 mil reais</option>
+                    <option value="Mais de 50 mil">Acima de 50 mil</option>
+                </select>
+                <br>
+                <br>
+                <button>Enviar</button>
+            </fieldset>
+        </form>
+    </main>
+    <footer style="background-color: blue;">
+        <nav>
+            <ul>
+                <li>Instagram</li>
+            </ul>
+        </nav>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Projetos</li>
+                <li>Sobre</li>
+            </ul>
+        </nav>
+    </footer>
 </body>
 </html>
