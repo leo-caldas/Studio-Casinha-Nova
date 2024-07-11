@@ -10,58 +10,72 @@
     o melhor projeto de acordo com a expectativa e necessidade de cada cliente.">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="Ícone Azul.png" />
-    <title>CNAD | HOME</title>
+    <title>SCN | HOME</title>
 </head>
 
 <body>
-    <section class="hdr">
-        <header class="hdrHome">
-            <nav>
-                <span><img class="positionLogo" src="SCN - Logo Preto.png"
-                        alt="Logo CNAD"></span>
-                <span class="spanProjetos"><a href="projetos.html">PROJETOS</a></span>
-                <span class="spanSobre"><a href="sobre.html">SOBRE</a></span>
-                <span class="spanContato"><a href="contato.html">CONTATO</a></span>
-            </nav>
-        </header>
-    </section>
-    <div class="bnr">
-        <img class="bannerHome" src="Foto Banner 1.jpeg" alt="Nome do Projeto">
-    </div>
     <main>
+        <header>
+            <nav class="navHeader">
+                <div class="flexImg">
+                    <img id="logo" src="SCN - Logo Preto.png">
+                </div>
+                <ul class="flexUl">
+                    <li id="projetos"><a href="google.com">Projetos</a></li>
+                    <li id="sobre">Sobre</li>
+                    <li id="contato">Contato</li>
+                </ul>
+            </nav>
+            <section>
+                <img class="sectionimg" src="Foto Banner 1.jpeg">
+            </section>
+        </header>
         <section>
-            <nav class="divProjetos">
-                <p><b>PROJETOS</b></p>
-                <strong>PROJETO 1</strong>
-                <strong>PROJETO 2</strong>
-                <strong>PROJETO 3</strong>
+            <nav>
+                <div class="navProjetos">
+                    <!-- <h1 class="h1Projetos">Projetos</h1> -->
+                    <ul class="ulProjetos">
+                        <img id="projeto1" src="Foto Banner 1.jpeg" alt="Nome do Projeto 1">
+                        <img id="projeto2" src="Foto Banner 1.jpeg" alt="Nome do Projeto 2">
+                        <img id="projeto3" src="Foto Banner 1.jpeg" alt="Nome do Projeto 3">
+                        <img id="projeto4" src="Foto Banner 1.jpeg" alt="Nome do Projeto 4">
+                        <!-- <li id="projeto1">Projeto 1</li> -->
+                        <!-- <li id="projeto2">Projeto 2</li> -->
+                        <!-- <li id="projeto3">Projeto 3</li> -->
+                        <!-- <li id="projeto4">Projeto 4</li> -->
+                    </ul>
+                </div>
             </nav>
         </section>
+        <section class="sectionSobre">
+            <div class="divSobre">
+                <h1 id="h1Sobre">Sobre</h1>
+                <p id="pSobre">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in tortor dictum, ornare
+                    tellus sit amet, scelerisque erat.
+                    Phasellus bibendum nisl at orci vulputate, laoreet ullamcorper quam pretium. Vestibulum ornare lorem
+                    sapien, facilisis luctus magna faucibus accumsan.
+                    Ut id risus ac sapien auctor blandit. Sed in ligula enim. Etiam eget tortor ac elit tincidunt
+                    egestas ut sit amet est. Aliquam interdum nisi vestibulum lacus
+                    feugiat, non efficitur tellus finibus. Vivamus id lobortis diam, vel luctus ex. Praesent ut enim id
+                    massa vestibulum pharetra at sed dolor. Sed enim neque,
+                    interdum varius hendrerit hendrerit, porttitor vitae arcu. Sed quis elit nec massa blandit efficitur
+                    molestie eu nulla.</p>
+            </div>
+        </section>
+        <footer>
+            <nav class="navFooter">
+                <p id="copywriteFooter">&copy; 2024 Studio Casinha Nova todos os direitos reservados</p>
+                <div>
+                    <ul class="siteFooter">
+                        <li>Home</li>
+                        <li>Projetos</li>
+                        <li>Sobre</li>
+                        <li>Contato</li>
+                    </ul>
+                </div>
+            </nav>
+        </footer>
     </main>
-    <hr>
-    <section class="divSobre" style="background-color: blue;">
-        <!-- Ajustar a posição do texto ao lado do Sobre -->
-        <header class="labelDivSobre"><b>SOBRE</b></header>
-        <p class="textDivSobre">Aqui vou inserir um breve storytelling sobre o Studio</p>
-    </section>
-    <hr>
-    <footer>
-        <nav>
-            <span>
-                <ul>
-                    <li><a href="https://www.instagram.com/studiocasinhanova/">Instagram</a></li>
-                </ul>
-            </span>
-            <!-- Alterar esses itens para lista e adicionar URL -->
-            <span>
-                <ul>
-                    <li><a href="projetos.html">Projetos</a></li>
-                    <li><a href="sobre.html">Sobre</a></li>
-                    <li><a href="contato.html">Contato</a></li>
-                </ul>
-            </span>
-        </nav>
-    </footer>
 </body>
 
 </html>
