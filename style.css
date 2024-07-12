@@ -172,6 +172,7 @@ justify-content: space-between;
     width: 450px;
     margin-top: 25px;
     margin-bottom: 25px;
+    border-radius: 15px;
     /* margin-bottom: 50px; */
     /* margin-bottom: 15px; */
     /* margin-left: 50px; */
@@ -185,6 +186,7 @@ justify-content: space-between;
     height: 300px;
     width: 450px;
     margin-bottom: 25px;
+    border-radius: 15px;
     /* border: solid 1px red; */
 }
 
@@ -194,6 +196,7 @@ justify-content: space-between;
     height: 300px;
     width: 450px;
     margin-bottom: 25px;
+    border-radius: 15px;
     /* border: solid 1px red; */
 }
 
@@ -203,6 +206,7 @@ justify-content: space-between;
     height: 300px;
     width: 450px;
     margin-bottom: 25px;
+    border-radius: 15px;
     /* border: solid 1px red; */
 }
 
