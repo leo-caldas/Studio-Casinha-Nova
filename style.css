@@ -85,6 +85,7 @@ a:hover {
     /* justify-self: space-around; */
     /* margin-right: 25px; */
     z-index: 3;
+    color: black;
 }
 
 #sobre {
@@ -92,24 +93,22 @@ a:hover {
     /* background-color: green; */
     /* margin-right: 25px; */
     z-index: 3;
+    color: black;
 }
 
 #contato {
     font-family: symtext, sans-serif;
     /* background-color: hotpink; */
     z-index: 3;
+    color: black;
 }
 
 /* Fim da edição do Header */
 
 /* Início da edição do Banner Rotativo */
-.sectionimg {
-    display: flex;
-    height: 100vh;
+.imgbanner {
     width: 100%;
-    flex-flow: row wrap;
-    /* position: absolute; */
-    z-index: 0;
+    height: 100vh;
 }
 
 /* Fim da edição do Banner Rotativo */
