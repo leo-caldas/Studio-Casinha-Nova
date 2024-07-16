@@ -3,16 +3,26 @@
     padding: 0px;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  transition: 0.3s;
+  color: #DC493A;
+}
+
 .divForm {
     align-items: center;
-    background-color: #E3E4DB;
+    background-color: #FFFFFF;
     display: flex;
     justify-content: center;
     height: 90vh;
     flex-flow: row wrap;
   }
 
-  .h1Header {
+  /* .h1Header {
     display: flex;
     background-color: #FFFFFF;
     font-size: 30px;
@@ -22,7 +32,7 @@
     justify-content: center;
     align-items: center;
     font-family: symtext, sans-serif;
-  }
+  } */
   
   .form {
     background-color: #1C4EE2;
@@ -177,8 +187,5 @@
     text-align: center;
 }
 
-a {
-    text-decoration: none;
-    color: white;
-}
+
   
