@@ -94,42 +94,7 @@ a {
     font-size: 14px;
 }
 
-.navFooter {
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    grid-template-areas: none
-    "copywrite site";
-    /* border: solid 2px black; */
-    justify-content: center;
-    /* align-content: center; */
-    height: 10vh;
-    width: 100%;
-    background-color: #FFFFFF;
-    /* z-index: 6; */
-}
 
-#copywriteFooter {
-    align-content: center;
-    margin-left: 40px;
-    color: #000000;
-    /* border: solid 2px white; */
-    border: solid 2px blue;
-}
-
-#siteFooter {
-    display: grid;
-    list-style-type: none;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas:
-    "home sobre contato";
-    color: black;
-    font-family: symtext, sans-serif;
-    font-size: 12px;
-    /* justify-content: space-around; */
-    border: solid 2px blue;
-    text-align: center;
-    justify-items: center;
-}
 /* Fim da edição do footer */
 
 /* Testes */

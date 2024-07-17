@@ -18,23 +18,34 @@
 <body>
     <main>
         <header>
-            <nav class="navHeader">
-                <div class="flexImg">
-                    <img id="logo" src="SCN - Logo Preto2.png">
+            <div>
+                <div id="header" class="row no-gutters justify-content-around">
+                    <div id="logo" class="col-4"><img id="logoHeader" src="SCN - Logo Preto2.png"
+                            alt="Logo Studio Casinha Nova"></div>
+                    <div id="navHeader" class="col-4">
+                        <ul class="nav justify-content-end">
+                            <li class="nav-item">
+                                <a id="projetosHeader" class="nav-link active" href="projetos.html">Projetos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a id="sobreHeader" class="nav-link" href="sobre.html">Sobre</a>
+                            </li>
+                            <li class="nav-item">
+                                <a id="contatoHeader" class="nav-link" href="contato.html">Contato</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <ul class="flexUl">
-                    <li id="projetos"><a href="projetos.html">Projetos</a></li>
-                    <li id="sobre"><a href="sobre.html">Sobre</a></li>
-                    <li id="contato"><a href="contato.html"> Contato</a></li>
-                </ul>
-            </nav>
+            </div>
+        </header>
+        <section>
             <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img class="imgbanner" src="APAC 01.jpeg" alt="Primeiro Slide">
+                        <img class="imgbanner" src="APAC 02.jpeg" alt="Primeiro Slide">
                     </div>
                     <div class="carousel-item">
-                        <img class="imgbanner" src="APJT 07.jpeg" alt="Segundo Slide">
+                        <img class="imgbanner" src="APJT 03.jpeg" alt="Segundo Slide">
                     </div>
                     <div class="carousel-item">
                         <img class="imgbanner" src="CAD 1.jpeg" alt="Terceiro Slide">
@@ -49,52 +60,52 @@
                     <span class="sr-only">Próximo</span>
                 </a>
             </div>
-        </header>
-        <section>
-            <nav>
-                <div class="navProjetos">
-                    <!-- <h1 class="h1Projetos">Projetos</h1> -->
-                    <ul class="ulProjetos">
-                        <img id="projeto1" src="CAD 1.jpeg" alt="Nome do Projeto 1">
-                        <img id="projeto2" src="CAD 3.jpeg" alt="Nome do Projeto 2">
-                        <img id="projeto3" src="CAD 5.jpeg" alt="Nome do Projeto 3">
-                        <img id="projeto4" src="CAD 6.jpeg" alt="Nome do Projeto 4">
-                        <!-- <li id="projeto1">Projeto 1</li> -->
-                        <!-- <li id="projeto2">Projeto 2</li> -->
-                        <!-- <li id="projeto3">Projeto 3</li> -->
-                        <!-- <li id="projeto4">Projeto 4</li> -->
-                    </ul>
-                </div>
-            </nav>
         </section>
-        <section class="sectionSobre">
-            <div class="divSobre">
-                <h1 id="h1Sobre">Sobre</h1>
-                <p id="pSobre">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in tortor dictum, ornare
-                    tellus sit amet, scelerisque erat.
-                    Phasellus bibendum nisl at orci vulputate, laoreet ullamcorper quam pretium. Vestibulum ornare lorem
-                    sapien, facilisis luctus magna faucibus accumsan.
-                    Ut id risus ac sapien auctor blandit. Sed in ligula enim. Etiam eget tortor ac elit tincidunt
-                    egestas ut sit amet est. Aliquam interdum nisi vestibulum lacus
-                    feugiat, non efficitur tellus finibus. Vivamus id lobortis diam, vel luctus ex. Praesent ut enim id
-                    massa vestibulum pharetra at sed dolor. Sed enim neque,
-                    interdum varius hendrerit hendrerit, porttitor vitae arcu. Sed quis elit nec massa blandit efficitur
-                    molestie eu nulla.</p>
-            </div>
+        <section>
+            <div id="background">
+                <p id="headerProjetos">Projetos</p>
+                <div id="projetos" class="row no-gutters justify-content-around">
+                    <div id="projetoAPAC" class="col-3">
+                        <a href="projetos.html">
+                            <img id="imgAPAC" src="APAC 02.jpeg" alt="Projeto AP:AC">
+                        </a>
+                    </div>
+                    <div id="projetoAPJT" class="col-3">
+                        <a href="projetos.html">
+                            <img id="imgAPJT" src="APJT 03.jpeg" alt="Projeto AP:JT">
+                        </a>
+                    </div>
+                    <div id="projetoCAD" class="col-3">
+                        <a href="projetos.html">
+                            <img id="imgCAD" src="CAD 1.jpeg" alt="Projeto CAD">
+                        </a>
+                    </div>
+                </div>
         </section>
     </main>
     <footer>
-        <nav class="navFooter">
-            <p id="copywriteFooter">&copy; 2024 Studio Casinha Nova, todos os direitos reservados</p>
-            <div>
-                <ul class="siteFooter">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="projetos.html">Projetos</a></li>
-                    <li><a href="sobre.html">Sobre</a></li>
-                </ul>
+        <div>
+            <div id="footer" class="row no-gutters justify-content-between">
+                <div class="col-4">&copy; 2024 Studio Casinha Nova, todos os direitos reservados</div>
+                <div class="col-3">
+                    <ul class="nav justify-content-center">
+                        <li class="nav-item">
+                            <a id="homeFooter" class="nav-link active" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="projetosFooter" class="nav-link" href="projetos.html">Projetos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="sobreFooter" class="nav-link" href="sobre.html">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="contatoFooter" class="nav-link" href="contato.html">Contato</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </nav>
     </footer>
+
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -105,6 +116,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
+
 </body>
 
 </html>
