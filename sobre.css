@@ -1,4 +1,4 @@
-* {
+*{
     margin: 0px;
     padding: 0px;
 }
@@ -8,77 +8,79 @@
     src: url('symtext.ttf') format('truetype');
 }
 
-a {
-    text-decoration: none;
-    color: black;
-}
-
-a:hover {
-    transition: 0.3s;
-    color: #1C4EE2;
-  }
-
-.grid {
-    display: grid;
-    grid-template-columns: 1fr 4fr;
-    grid-template-areas:
-        "label descricao";
+/* Início da edição da div 1 */
+#div1 {
     height: 90vh;
-    background-color: #FFFFFF;
 }
 
-.labelSobre {
+#labelSobre {
     background-color: #1C4EE2;
     color: #FFFFFF;
-    text-align: center;
     align-content: center;
+    text-align: center;
     font-family: symtext, sans-serif;
     font-size: 40px;
 }
 
-.dscSobre {
+#dscSobre {
     background-color: #FFFFFF;
     color: #000000;
-    text-align: center;
     align-content: center;
-    font-size: 30px;
-    margin-left: 90px;
-    margin-right: 90px;
-    /* font-family: panichesta, sans-serif; */
-    /* border: solid 1px red; */
+    text-align: center;
+    font-size: 28px;
+    /* border: solid 1px black; */
 }
 
-.navFooter {
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    grid-template-areas: none
-    "copywrite site";
-    /* border: solid 2px black; */
-    justify-content: center;
-    align-content: center;
+#pSobre {
+    margin-left: 125px;
+    margin-right: 125px;
+}
+/* Fim da edição da div 1 */
+
+/* Início da edição da div 2 */
+#div2 {
     height: 10vh;
-    width: 100%;
-    background-color: #FFFFFF;
-    /* z-index: 6; */
 }
 
-#copywriteFooter {
-    align-content: center;
-    margin-left: 40px;
-    color: #000000;
-    /* border: solid 2px white; */
+#background1 {
+    background-color: #1C4EE2;
 }
 
-.siteFooter {
-    display: grid;
-    list-style-type: none;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas:
-    "home projetos sobre";
-    color: white;
-    font-family: symtext, sans-serif;
-    font-size: 12px;
-    /* justify-content: space-around; */
-    /* border: solid 2px white; */
+#background2 {
+    background-color: #F5F5F5;
+}
+
+#footer {
+    /* height: 10vh; */
+    /* border: solid 1px red; */
+    align-items: center;
     text-align: center;
+    background-color: #F5F5F5;
+    /* border: solid 1px #FFFFFF; */
 }
+
+#align{
+    align-content: center;
+}
+
+#homeFooter {
+    font-family: symtext, sans-serif;
+    color: black;
+    font-size: 14px;
+    /* border: solid 1px #000000; */
+}
+
+#projetosFooter {
+    font-family: symtext, sans-serif;
+    color: black;
+    font-size: 14px;
+    /* border: solid 1px #000000; */
+}
+
+#contatoFooter {
+    font-family: symtext, sans-serif;
+    color: black;
+    font-size: 14px;
+    /* border: solid 1px #000000; */
+}
+
