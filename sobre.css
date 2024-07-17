@@ -3,10 +3,6 @@
     padding: 0px;
 }
 
-@font-face {
-    font-family: "symtext";
-    src: url('symtext.ttf') format('truetype');
-}
 
 /* Início da edição da div 1 */
 #div1 {
