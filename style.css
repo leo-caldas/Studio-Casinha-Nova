@@ -2,7 +2,28 @@
     margin: 0px;
     padding: 0px;
     background-color: #F5F5F5;
+    /* overflow-y: hidden; */
+
 }
+
+/* Celulares menores */
+@media only screen and (min-width: 576px) and (max-width: 767.98) {
+    header {
+        display: none;
+    }
+}
+
+/* Celulares e alguns tablets */
+@media only screen and (min-width: 768px) and (max-width: 991.98) {}
+
+/* Tablets */
+@media only screen and (min-width: 992px) and (max-width: 1199.98) {}
+
+/* Notebooks */
+@media only screen and (min-width: 1200px) and (max-width: 1399.98) {}
+
+/* Desktop */
+@media only screen and (min-width: 1400px) {}
 
 /* Início da edição do header */
 #header {
@@ -115,6 +136,7 @@
     width: 100%;
     border-radius: 9px;
 }
+
 /* Fim da edição da seção projetos */
 
 /* Início da edição do footer */
@@ -150,4 +172,5 @@
     color: black;
     font-size: 14px;
 }
+
 /* Fim da edição do footer */
