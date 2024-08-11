@@ -35,6 +35,20 @@ a {
   } */
  
 /* Início da edição do header */
+#headerlogo {
+    width: 100%;
+    height: 8vh;
+    align-content: center;
+    text-align: center;
+    background-color: #F5F5F5;
+}
+
+#logoheader {
+    height: 40px;
+}
+
+
+
 #header {
     height: 10vh;
     text-align: center;
@@ -112,4 +126,54 @@ a {
 
 /* Fim da edição do footer */
 
-/* Testes */
+/* Responsividade */
+/* Telas extra pequenas */
+@media only screen and (max-width: 575.98px) {
+    .imgbanner {
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+/* Telas pequenas */
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+    .imgbanner {
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+/* Telas médias */
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+    .imgbanner {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Telas grandes */
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+    .imgbanner {
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+/* Telas extra grandes */
+@media only screen and (min-width: 1200px) and (max-width: 1399.98px) {
+    .imgbanner {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Telas gigantescas */
+@media only screen and (min-width: 1400px) {
+    .imgbanner {
+        width: 100%;
+        height: 100vh;
+    }
+}
